@@ -1,5 +1,5 @@
 {
-    "name": "paypal/merchant-sdk-php",
+    "name": "amboss-mededu/merchant-sdk-php",
     "description": "PayPal Merchant SDK for PHP",
     "keywords": ["paypal", "php", "sdk"],
     "homepage": "https://developer.paypal.com",
@@ -23,5 +23,8 @@
             "PayPal\\EnhancedDataTypes": "lib/",
             "PayPal\\PayPalAPI": "lib/"
         }
+    },
+    "replace": {
+        "paypal/merchant-sdk-php": "^3.12"
     }
 }
